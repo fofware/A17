@@ -1,0 +1,25 @@
+
+.navbar {
+
+  --bs-link-color: rgba( 255,255,255, 0.65);
+
+  --bs-link-hover-color:rgba( 255,255,255, 0.8);
+  --bs-link-active-color:rgba( 255,255,255, 1);
+//  --bs-nav-tabs-link-active-color: rgba(255,255,255, 1);
+
+//  --bs-navbar-color: rgba( 255, 255, 255, 0.65);
+  --bs-navbar-hover-color: rgba( 255,255,255, 0.8);
+  --bs-navbar-disabled-color: rgba( 255,255,255, 0.3);
+  --bs-navbar-active-color: rgba( 255,255,255, 1);
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-width: null; //var(--bs-border-width);
+  --bs-nav-tabs-link-active-bg: --bs-navbar-color;
+  --bs-nav-tabs-link-active-color: rgba( 255,255,255, 1);
+}
+
+.nav-link {
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+}
+
